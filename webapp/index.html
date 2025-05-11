@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>browserapp</title>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+</head>
+<body>
+    <!-- terrible ui but its just something i made quick for this prototype thing -->
+    <div id="session">
+        <span>url to use:</span>
+    <input type="url" id="url">
+    <button id="createsession">
+        Create session
+    </button><br>
+    </div>
+
+    <button id="getscreenshot">Get screenshot</button><button id="type">Type</button><button id="kill">Kill</button><button id="enter">Enter key</button><button id="backspace">Backspace key</button><br>
+    <span style="margin-right: 5px;">Remaining time: <span id="time-left"></span></span><span id="session-id"></span><br>
+
+
+    <img src="/" id="screenshot" width="1280" height="720">
+
+    <script src="script.js"></script>
+</body>
+</html>
